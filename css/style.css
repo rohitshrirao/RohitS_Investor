@@ -1,0 +1,773 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.container{
+	width:100%;
+	font-family: Poor Richard;
+}
+
+header{
+	color:#545454;
+	background: #262626;
+	font-size: 12px;
+	width:100%;
+	height:80px;
+	padding: 20px 30px;
+	position:fixed;
+}
+
+header div{
+	width:40px;
+	height:40px;
+	float: right;
+	padding: 13px;
+	background: #e23826;
+}
+
+header i{
+	color: white;
+	font-size: 15px;
+	position: absolute;
+}
+
+header ul{
+	display: none;
+}
+
+header a{
+	text-decoration: none;
+	color: white;
+}
+
+header ul li a:hover{
+	text-decoration: underline;
+}
+
+.hero-section{
+   	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/investors-img-main.jpg);
+   	height: 500px;
+   	background-size: 180% 100%;
+   	color: white;
+   	padding: 120px 5px 0px 30px;
+}
+
+.hero-section h2{
+	font-size: 27px;
+	margin: 50px 0px 0px 70px;
+}
+
+.hero-section p{
+	margin: 20px 0px 0px 70px;
+	line-height: 25px;
+}
+
+.hero-section input[type="button"]{
+	margin: 20px 0px 0px 70px;
+	background: #e23826;
+	color: white;
+	padding: 12px 25px;
+	border-radius: 20px;
+	border: none;
+}
+
+.hero-section input[type="button"]:hover{
+	background:#212121;
+}
+
+.three-div{
+	background: #f2f0ee;
+	padding: 50px 15px;
+	text-align: center;
+}
+
+.three-div div{
+	padding: 60px 70px;
+}
+
+.three-div i{
+	color: red;
+	font-size: 60px;
+}
+
+.three-div h4{
+	color: #ffffff;
+	font-size: 30px;
+	margin: 20px 0px 20px 0px;
+}
+
+.three-div p{
+	line-height: 30px;
+	color: white;
+}
+
+.two-div div{
+	height:550px;
+}
+
+.office-img{
+	background: url(../images/2.jpg);
+	background-size: 150% 120%;
+}
+
+.office-img:hover{
+    background: url(../images/2.jpg) center;
+    background-size: 100% 100%;
+    transition:  5s;
+}
+
+.investment{
+	padding: 30px 20px;
+	background: white;
+}
+
+.investment h2{
+	font-size: 38px;
+}
+ 
+.investment p{
+	line-height: 25px;
+	margin: 30px 0px 30px 0px;
+}
+
+.investment input[type="button"]{
+	padding: 15px 40px;
+	color: #ffffff;
+	background: #212121;
+	font-size: 17px;
+	border-radius: 30px;
+	border: none;
+}
+
+.investment input[type="button"]:hover{
+	background:#e23826;
+}
+
+.business-section{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/investor_relation_img01.png);
+   	height: 540px;
+   	background-size: 150% 150%;
+   	color: white;
+   	padding: 95px 40px;
+   	text-align: center;
+}
+
+.business-section h4{
+	color:  #e23826;
+}
+
+.business-section h2{
+	font-size: 36px;
+	margin: 15px 0px;
+	font-family: arial;
+}
+
+.business-section p{
+	line-height: 25px;
+	font-size: 18px;
+}
+
+.business-section input[type="button"]{
+	margin: 25px 0px 0px 0px;
+	background: #e23826;
+	color: white;
+	padding: 20px 30px;
+	border-radius: 30px;
+	border: none;
+	font-size: 17px;
+}
+
+.business-section input[type="button"]:hover{
+	background:#212121;
+}
+
+.bgw-div{
+	background: #f2f0ee;
+	text-align: center;
+}
+
+.bgw-div div{
+	padding: 60px 65px;
+}
+
+.bgw-div h4{
+	color: #ffffff;
+	font-size: 25px;
+	margin: 20px 0px 20px 0px;
+}
+
+.bgw-div p{
+	line-height: 30px;
+	color: white;
+}
+
+.d-white-box{
+	background: #f2f0ee;
+	padding: 10px;
+}
+
+.qs-provide{
+	text-align: center;
+	padding:60px 18px;
+	margin: 2px;
+}
+
+.qs-provide h4{
+	color: #e23826;
+}
+
+.qs-provide h2{
+	font-size: 35px;
+	margin: 20px 0px;
+}
+
+.qs-provide p{
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.three-img{
+	padding: 30px 18px;
+	margin: 2px;
+}
+
+.three-img img{
+	width:100%;
+	height:200px;
+}
+
+.three-img div{
+	border: 1px solid #e2e2e2;
+	background: white;
+}
+
+.three-img figcaption{
+	font-size: 28px;
+	font-weight: bold;
+	margin: 10px 8px;
+}
+
+.three-img p{
+	font-size: 17px;
+	margin: 10px 8px;
+	line-height: 25px;
+}
+
+.three-img h3{
+	margin: 20px 8px;
+	font-weight: bold;
+}
+
+.three-img div:hover{
+    transform: translateY(-50px);
+    transition: 3s;	
+    background: #e23826;
+    box-shadow: 4px 4px 4px black;
+    color: white;
+}
+
+.testimonial{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/investor-shakes-hands-sales-director-260nw-633618983.webp);
+	background-size: 200% 200%;
+	color: white;
+	padding: 70px 16px;
+	text-align: center;
+}
+
+.testimonial h4{
+	color: #e23826;
+}
+
+.testimonial h2{
+	font-size: 37px;
+	margin: 10px 0px 20px 0px;
+}
+
+.testimonial p{
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+
+.testimonial div{
+	border: 1px solid white;
+	background: #1b1b1b;
+	padding: 40px 40px 25px;
+	margin-bottom: 20px;
+}
+
+.info div{
+	width:70px;
+	height: 70px;
+	margin: 0 auto;
+	border-radius: 100%;
+	background-size: 100% 100%;
+}
+
+.info h2{
+	font-size: 27px;
+	margin: 25px 0px 5px 0px;
+}
+
+.info h4{
+	font-size: 13px;
+	margin: 0px 0px 20px 0px;
+}
+
+.info p{
+	font-size: 15px;
+}
+
+.greybox{
+	background: #1b1b1b;
+	padding: 80px 20px;
+	text-align: center;
+}
+
+.greybox div{
+	padding: 30px;
+	color: white;
+}
+
+.greybox div h2{
+	font-size: 70px;
+}
+
+.d-white-box-2{
+	background: #f2f0ee;
+	padding: 10px;
+}
+
+.qs-provide-2{
+	text-align: center;
+	padding:60px 18px;
+	margin: 2px;
+}
+
+.qs-provide-2 h4{
+	color: #e23826;
+}
+
+.qs-provide-2 h2{
+	font-size: 35px;
+	margin: 15px 0px;
+}
+
+.qs-provide-2 p{
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.three-img-2{
+	padding: 30px 18px;
+	margin: 2px;
+}
+
+.three-img-2 div{
+	background: white;
+}
+
+.three-img-2 img{
+	width:100%;
+	height:200px;
+}
+
+.three-img-2 figcaption{
+	font-size: 14px;
+	margin: 20px 15px;
+	line-height: 25px;
+}
+
+.three-img-2 h2{
+	margin: 0px 15px;
+	font-size: 25px;
+}
+
+.three-img-2 p{
+	font-size: 17px;
+	margin: 10px 15px;
+	line-height: 25px;
+}
+
+.three-img-2 h3{
+	margin: 15px 15px;
+	padding-bottom: 15px;
+}
+
+.three-img-2 div:hover{
+    transform: translateY(-50px);
+    transition: 3s;	
+    background: #e23826;
+    box-shadow: 4px 4px 4px black;
+    color: white;
+}
+
+.newsletter{
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 90px 30px; 
+}
+
+.newsletter h2{
+	font-size: 38px;
+	margin: 0px 0px 20px 0px;
+}
+
+.one{
+	padding: 20px 50px;
+	background: #212121;
+	color: #797e87;
+	border: none;
+	border-radius: 30px;
+	margin: 10px 0px;
+}
+
+.two{
+	padding: 20px 50px;
+	border-radius: 30px;
+	border: none;
+	background: #e23826;
+	color: white;
+	margin: 10px 0px 0px 0px;
+}
+
+.two:hover{
+	background:#212121;
+}
+
+.contact-add{
+	color: white;
+	background: #212121;
+	padding: 70px 20px;
+}
+
+.contact-add div{
+	margin: 0px 0px 20px 0px;
+	padding: 10px 0px;
+}
+
+.contact-add div p{
+	margin: 15px 0px 10px 0px;
+	line-height: 25px;
+}
+
+.c-one ul{
+	list-style: none;
+}
+
+.c-one ul li{
+	display: inline-block;
+}
+
+.c-one i{
+	color: #e23826;
+	font-size: 45px;
+	margin: 20px 15px 0px 0px;
+}
+
+.c-one i:hover{
+	color: grey;
+}
+
+.c-two ul{
+	margin:15px 60px 0px 34px;
+	font-size: 22px;
+}
+
+.c-two li p{
+	font-size: 16px;
+}
+
+.c-two i{
+	color: #e23826;
+}
+
+.c-three ul{
+	list-style: none;
+	margin:15px 0px 0px 0px; 
+	line-height: 35px;
+}
+
+.contact-add h2{
+	font-size: 30px;
+}
+
+footer{
+	background: #1b1b1b;
+	text-align: center;
+	padding: 30px 40px;
+}
+
+footer h3{
+	font-weight: lighter;
+	color: white;
+	line-height: 25px;
+	font-size: 23px;
+}
+
+footer span{
+	color: #e23826;
+
+}
+
+#top{
+	position: fixed !important;
+	bottom: 20px;
+	right: 20px;
+}
+
+#top i{
+	font-size: 35px;
+}
+
+.orange{
+	color: #e23826;
+}
+
+
+@media only screen and (min-width:768px){
+	.hero-section h2{
+	margin: 50px 0px 0px 500px;
+}
+
+.hero-section p{
+	margin: 20px 0px 0px 500px;
+}
+
+.hero-section input[type="button"]{
+	margin: 20px 0px 0px 500px;
+}
+
+.hero-section{
+   	background-size: 100% 100%;
+}
+
+.investment{
+    	padding: 30px 250px 30px 30px;
+ }
+
+ .business-section h2{
+	font-size: 50px;
+	margin: 15px 0px;
+	margin: 40px 0px;
+}
+
+.business-section p{
+	margin:20px 150px 15px 150px;
+}
+
+.bgw-div p{
+	padding: 0px 30px;
+}
+
+.qs-provide{
+	padding:60px 140px;
+}
+
+.three-img div{
+	display: inline-block;
+	width: 30%;
+	margin-left:17px; 
+}
+
+.testimonial div{
+	display: inline-block;
+	width: 31%;
+	margin-left:5px;
+}
+
+.testimonial p{
+	padding: 0px 21px;
+}
+
+.qs-provide-2{
+	padding:60px 140px;
+}
+
+.three-img-2 div{
+	display: inline-block;
+	width: 30%;
+	margin-left:17px; 
+}
+
+.newsletter input{
+	margin:10px 4px;
+}
+
+.contact-add{
+	height: 780px;
+}
+
+.contact-add div{
+	width:50%;
+	float: left;
+	padding: 0px 0px 0px 20px;
+}
+
+.c-one p{
+	padding-right: 50px;
+}
+    
+}
+
+
+@media only screen and (min-width:1024px){
+   header ul{
+	display: inline-block;
+	list-style: none;
+	color: white;
+	font-size: 19px;
+	float: right;
+   }
+
+   header ul li{
+   	display: inline-block;
+   	margin:10px 0px 0px 25px;
+   }
+
+   header div{
+   	display: none;
+   }
+
+   header ul li input[type="search"]{
+   	width:70px;
+   	height: 30px;
+   }
+
+   .hero-section{
+   	background-size: 100% 130%;
+    }
+
+   .hero-section h2{
+	font-size: 35px;
+	margin: 50px 0px 0px 700px;
+    }
+
+    .hero-section p{
+	margin: 20px 0px 0px 700px;
+    }
+
+    .hero-section input[type="button"]{
+	margin: 20px 0px 0px 700px;
+	padding: 15px 30px;
+    }
+
+    .three-div{
+    	height: 530px;
+    }
+
+    .three-div div{
+    	display: inline-block;
+    	float: left;
+    	width:33%;
+    }
+
+    .two-div{
+    	height:650px;
+    }
+
+    .two-div div{
+    	float: left;
+    	width: 50%;
+    }
+
+    .investment{
+    	padding: 30px 50px;
+    }
+
+    .business-section{
+    	padding: 100px 170px;
+    }
+
+    .bgw-div div{
+    	float: left;
+    	width: 33.3%;
+    }
+
+    .qs-provide{
+	padding:0px 270px 50px 270px;
+    }
+
+    .qs-provide h4{
+    	margin: 450px 0px 0px 0px;
+    }
+
+    .three-img div{
+	margin-left:20px; 
+    }
+
+    .greybox div{
+    	display: inline-block;
+    	margin: 0px 25px;
+    }
+
+    .qs-provide-2{
+	padding:60px 270px 60px 270px;
+    }
+
+    .three-img-2 h2{
+    	margin-right:30px;
+    }
+
+    .contact-add{
+	height: 480px;
+    }
+
+    .contact-add div{
+	width:25%;
+    }
+}
+
+
+@media only screen and (min-width:1200px){
+	header{
+	padding: 20px 150px;
+    }
+
+    .hero-section{
+   	background-size: 100% 160%;
+    }
+
+    .hero-section h2{
+	font-size: 50px;
+	margin: 50px 200px 0px 800px;
+    }
+
+    .hero-section p{
+	margin: 20px 200px 0px 800px;
+    }
+
+    .hero-section input[type="button"]{
+	margin: 20px 0px 0px 800px;
+	padding: 17px 38px;
+	font-size: 16px;
+	border-radius: 30px;
+    }
+
+    .three-div div{
+	padding: 60px 150px;
+     }
+
+    .investment{
+    	padding-right:250px;
+    }
+
+    .testimonial div{
+	width: 25%;
+    }
+
+    .bgw-div div{
+	padding: 60px 100px;
+    }
+
+    .three-img div{
+	margin-left:32px; 
+    }
+
+    .three-img-2 div{
+    	margin-left: 30px;
+    }
+}
